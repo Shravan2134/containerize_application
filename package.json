@@ -4,7 +4,14 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "scripts": {
+    "build": "docker build -t containerize_application .",
+    "run": "echo \"application is building"
+  }
+  "scripts": {
+    "start": "node script.js"
   },
   "repository": {
     "type": "git",
