@@ -1,4 +1,5 @@
 FROM nginx:alpine
+FROM nodejs:baseline
 
 RUN rm -rf /usr/share/nginx/html/*
 
